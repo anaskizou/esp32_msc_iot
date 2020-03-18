@@ -1,9 +1,11 @@
-ESP-IDF template app
-====================
+Esp 32 Embedded Systems school project
+======================================
 
-This is a template application to be used with [Espressif IoT Development Framework](https://github.com/espressif/esp-idf).
+This a school related project and thus is maintained by  SFA Poitiers students.
+The goal of this project is to use ESP 32 microcontroller and some peripherals including an RTC and sensors.
 
-Please check [ESP-IDF docs](https://docs.espressif.com/projects/esp-idf/en/latest/get-started/index.html) for getting started instructions.
+The equipements :
+Esp-wrover-kit V4.1 that includes and esp32, ili9341 screen and JTAG more info : [Official espressif](https://docs.espressif.com/projects/esp-idf/en/latest/hw-reference/get-started-wrover-kit.html#get-started-esp-wrover-kit-v4-1-board-front "Espressif docs link")
 
 *Code in this repository is in the Public Domain (or CC0 licensed, at your option.)
 Unless required by applicable law or agreed to in writing, this
