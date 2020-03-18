@@ -1,5 +1,5 @@
 ### Esp 32 Embedded Systems school project
-### ======================================
+### =============================
 <br /><br />
 This a school related project and thus is maintained by  SFA Poitiers students.<br />
 The goal of this project is to use ESP 32 microcontroller and some peripherals including an RTC and sensors.<br />
