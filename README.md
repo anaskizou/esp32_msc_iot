@@ -1,11 +1,34 @@
-Esp 32 Embedded Systems school project
-======================================
+### Esp 32 Embedded Systems school project
+### ======================================
 
 This a school related project and thus is maintained by  SFA Poitiers students.
 The goal of this project is to use ESP 32 microcontroller and some peripherals including an RTC and sensors.
 
 The equipements :
 Esp-wrover-kit V4.1 that includes and esp32, ili9341 screen and JTAG more info : [Official espressif](https://docs.espressif.com/projects/esp-idf/en/latest/hw-reference/get-started-wrover-kit.html#get-started-esp-wrover-kit-v4-1-board-front "Espressif docs link")
+
+In order to use this project :
+
+1. Clone the project :
+
+```bash
+git clone --recursive https://github.com/anaskizou/esp32_msc_iot.git 
+```
+2. Build the project :
+
+```bash
+idf.py build 
+```
+3. Check the configuration if necessary :
+
+```bash
+idf.py menuconfig 
+```
+4. Build and flash the program :
+
+```bash
+idf.py -p /dev/ttyUSB1 flahs monitor 
+```
 
 *Code in this repository is in the Public Domain (or CC0 licensed, at your option.)
 Unless required by applicable law or agreed to in writing, this
