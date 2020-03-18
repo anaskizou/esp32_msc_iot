@@ -27,7 +27,7 @@ idf.py menuconfig
 4. Build and flash the program :
 
 ```bash
-idf.py -p /dev/ttyUSB1 flahs monitor 
+idf.py -p /dev/ttyUSB1 flash monitor 
 ```
 
 *Code in this repository is in the Public Domain (or CC0 licensed, at your option.)
