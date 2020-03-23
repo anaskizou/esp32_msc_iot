@@ -1,6 +1,8 @@
+sdkconfig.old
+.cproject
+.project
+
 # ignore the build files 
 build/*
 # TODO: add spiffs image negation
 
-
-# TODO: add the other unnecessary files
